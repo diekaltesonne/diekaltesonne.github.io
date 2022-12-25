@@ -1,0 +1,352 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+
+	<title>Ilya Trifonov</title>
+
+	<style>
+	body {
+  background: #EEEEEE;
+  font: 12px "Times New Roman", Times, sans-serif;
+  line-height: 1.4;
+  margin: 40px 0;
+}
+em {
+  color: #999;
+}
+p {
+  line-height: 1.4;
+}
+ul {
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 2px;
+}
+a {
+  text-decoration: none;
+}
+
+#resume {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 80px 100px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px #aaa;
+  -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+  width: 28%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.largeFont {
+  font-size: 20px;
+}
+
+.smallFont {
+  font-size: 12px;
+}
+
+.sectionBlock {
+  display: flex;
+  width: 100%;
+}
+
+.sectionName {
+  width: 18%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent {
+  width: 80%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent ul {
+  padding-left: 20px;
+  margin-top: 6px;
+  list-style-type: circle;
+}
+
+.sectionContent .title {
+  font-weight: bold;
+}
+
+.sectionContent .date {
+  float: right;
+}
+
+.sectionContent .separator {
+  height: 14px;
+}
+
+.sectionLine {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #CFCFCF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.summary {
+  margin-top: 6px;
+}
+
+.skillBlock {
+  margin-bottom: 4px;
+}
+
+.jobBlock {
+  page-break-inside: avoid;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 40em) {
+  body {
+    margin: 0;
+    font-size: 14px;
+  }
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0.5em 1em;
+    border: none;
+  }
+  .sectionContent {
+    width: 100%;
+  }
+  .sectionContent .date {
+    padding-right: 2em;
+  }
+  .sectionName {
+    width: auto;
+  }
+  .largeFont {
+    font-size: 20px;
+  }
+  .smallFont {
+    font-size: 14px;
+  }
+}
+
+@media print {
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0px 0px;
+    border: 0px;
+    background: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  a {
+    color: black;
+  }
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<div id='resume'>
+  <div id='nameBlock' class='largeFont'>
+    <span class='name'>
+      Ilya Trifonov,
+    </span>
+    <span class='label'>Senior Python Developer</span>
+  </div>
+  <div id='basicsBlock' class='smallFont'>
+    <div class='contactBlock'>
+      <span class='email'>trifonoffilyhof@gmail.com</span>
+        <span class='divider'>|</span>
+        <span class='address'>
+          Moscow, RU
+        </span>
+    </div>
+      <div id='profilesBlock'>
+            <span class='url'>
+              <a href='https://t.me/one_bit_shift'>https://t.me/one_bit_shift</a>
+            </span>
+            
+      </div>
+  </div>
+  <div class='sectionLine'></div>
+
+  <div id='summaryBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>SUMMARY</span>
+    </div>
+    <div class='sectionContent'>
+      <span>I&#x27;m a backend developer with 3 years experinece. I participate in the development of a large scale application and services with Python and python frameworks, from initial stage and supporting existing. I have experience with QA infrastructure - work with testing frameworks and CI/CD pipelines. Have mentoring and code-review experience. </span>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+  
+	<div id='skills' class="sectionBlock">
+    <div class='sectionName'>
+      <span>SKILLS</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='skillBlock'>
+        <span class='title'>Lang:</span>
+          <span>Python <em>(Senior)</em>, </span>
+          <span>SQL <em>(Middle)</em>, </span>
+          <span>Javascript</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Frameworks:</span>
+          <span>Django, </span>
+          <span>Flask, </span>
+          <span>Celery, </span>
+          <span>Redis</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Administration technology:</span>
+          <span>Zabbix, </span>
+          <span>Linux</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Ecosystem:</span>
+          <span>Git, </span>
+          <span>Docker, </span>
+          <span>CI/CD(Jenkins, Gitlab, Allure)</span>
+      </div>
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+  <div id='workBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>EXPERIENCE</span>
+    </div>
+    <div class='sectionContent'>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          SberAutoTech, Software Engineer (Python Developer)
+	        </span>
+	        <span class='date'>
+	          2022-12 &mdash; Present
+	        </span>
+	      </div>
+	      <div><a href='https://sberautotech.ru/'>https://sberautotech.ru/</a></div>
+	      <ul class='details'>
+	        <li>Participated in the development of an application for automation testing of AV software. <em>[Jenkins, Allure, Gitlab CI/CD, SQL]</em></li>
+	        <li>Participated in the development of simulation system for AV testing. <em>[Python Core, Numpy, Ros, ]</em></li>
+	        <li>Wrote technical documentation for project. <em>[Python Core, Numpy, Ros, ]</em></li>
+	        <li>Support CI system for delopment process (Gitlab, Allure, Jenkins).</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Zyfra, Software Engineer (Python Developer)
+	        </span>
+	        <span class='date'>
+	          2020-09 &mdash; 2021-11
+	        </span>
+	      </div>
+	      <div><a href='https://www.zyfra.com/'>https://www.zyfra.com/</a></div>
+	      <ul class='details'>
+	        <li>Participated in the development of an application for automation of mining manufacturing.</li>
+	        <li>Participated in the development of system of calculation efficiency of product delevery from place of extraction to storage.</li>
+	        <li>Refactored a legacy part of the system.</li>
+	        <li>Provides technical and system administaration support for customers (mining companies).</li>
+	        <li>Wrote technical documentation for project.</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Institute of Radio Engineering and Electronics, Software Engineer
+	        </span>
+	        <span class='date'>
+	          2019-09 &mdash; 2020-07
+	        </span>
+	      </div>
+	      <div><a href='https://mpei.ru/'>https://mpei.ru/</a></div>
+	      <ul class='details'>
+	        <li>Develop system for analyzing ultrasonic signals with use of machine learning libraries (Keras, Tensorflow).</li>
+	        <li>Develop system for analyzing radio signals with use of mathematics libraries (Numpy, Matplotlib, Scipy)</li>
+	      </ul>
+	      
+			</div>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+
+
+
+
+	<div id='education' class="sectionBlock">
+    <div class='sectionName'>
+      <span>EDUCATION</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='educationBlock'>
+        <span class='title'>
+          National research university MPEI
+        </span>
+        <span class='date'>
+          2016 &mdash; 2021
+        </span>
+        <div class=''>
+           - Telecommunication Engineering
+        </div>
+      </div>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='languages' class="sectionBlock">
+    <div class='sectionName'>
+      <span>LANGUAGES</span>
+    </div>
+    <div class='sectionContent'>
+      <span class='language'>English</span>
+      <span class='fluency'><em>(Upper intermediate)</em></span>
+      <span>,</span>
+      <span class='language'>Russian</span>
+      <span class='fluency'><em>(Native speaker)</em></span>
+      
+    </div>
+    <div class='sectionLine'></div>
+	</div>
+
+	<div id='interests' class="sectionBlock">
+    <div class='sectionName'>
+      <span>INTERESTS</span>
+    </div>
+    <div class='sectionContent'>
+      <span class='name'>Reading</span><!--
+      --><span>, </span>
+      <span class='name'>Travel</span><!--
+      --><span>, </span>
+      <span class='name'>Motorcycling</span><!--
+      -->
+    </div>
+    <div class='sectionLine'></div>
+	</div>
+
+	</body>
+</html>
